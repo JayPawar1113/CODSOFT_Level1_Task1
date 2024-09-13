@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jay Pawar - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <!-- Logo Replaced with Name and Circular Logo -->
+                        <div class="branding">
+                            <span style="color: white; font-weight: bold; font-size: 22px;">
+                                <span style="display: inline-block; width: 12px; height: 12px; background-color: aqua; border-radius: 50%; margin-right: 10px;"></span>
+                                Jay Pawar
+                            </span>
+                        </div>
+        
+                        <!-- Navigation Links -->
+                        <div>
+                            <a href="#" style="color: white; margin-right: 20px;">Home</a>
+                            <a href="#about" style="color: white; margin-right: 20px;">About</a>
+                            <a href="#projects" style="color: white; margin-right: 20px;">Projects</a>
+                            <a href="#skills" style="color: white; margin-right: 20px;">Skills</a>
+                            <a href="#resume" style="color: white; margin-right: 20px;">Resume</a>
+                            <a href="#contact" style="color: white;">Contact</a>
+                        </div>
+                    </div>
+        
+                    <!-- Contact Button -->
+                    <div class="right">
+                        <button class="btn btn-primary" style="background-color: aqua; color: white; border: none;">Contact</button>
+                    </div>
+                </nav>
+        
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/Jay.png" alt="Jay Pawar">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Jay Pawar</h6>
+                        <h1>I’m a Creative <span style="color: aqua;">CS Engineer | B.Tech</span></h1>
+                        <p>A tech enthusiast with a focus on AI, ML, and web development. I have worked on several impactful projects including smart homes, agricultural solutions, and smart energy systems.</p>
+                        <div>
+                            <a href="Jay_Pawar_VIT_CV_New.pdf" class="btn btn-secondary" download style="background-color: aqua; color: white; border: none;">
+                                DOWNLOAD CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+        
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/Jay2.jpg" alt="Jay Pawar">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I’m Jay Pawar.</h3>
+                    <p>I am currently pursuing a B.Tech in Computer Science Engineering from Vishwakarma Institute of Technology, Pune. I am passionate about leveraging technology to solve real-world problems, with a focus on AI, ML, and web development. I have developed multiple projects ranging from smart home systems to smart car parking and agriculture solutions.</p>
+                    <div class="social">
+                        <a href="#"><img src="./images/website.svg" alt=""></a>
+                        <a href="#"><img src="./images/facebook.svg" alt=""></a>
+                        <a href="#"><img src="./images/twitter.svg" alt=""></a>
+                        <a href="#"><img src="./images/pinterest.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span>Projects</h1>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <h2><strong>Revolutionizing Agriculture: Agri Guru</strong></h2>
+                        <p>AI/ML-based solution offering crop recommendations, disease prediction, and fertilizer suggestions to farmers.</p>
+                    </div>
+                    <div class="card">
+                        <h2><strong>Smart Homes</strong></h2>
+                        <p>Automated home systems using NodeMCU and Google Assistant/Alexa to control home appliances via voice commands and manual switches.</p>
+                    </div>
+                    <div class="card">
+                        <h2><strong>Smart Attendance Application</strong></h2>
+                        <p>A mobile application that allows students to mark attendance using QR codes, reducing physical contact during the pandemic.</p>
+                    </div>
+                    <div class="card">
+                        <h2><strong>Farm Agro: Agriculture Website</strong></h2>
+                        <p>A web platform offering crop information, real-time weather updates, and a query service for farmers.</p>
+                    </div>
+                    <div class="card">
+                        <h2><strong>Smart Car Parking System</strong></h2>
+                        <p>Efficient parking management using Arduino and sensors, offering low-cost parking solutions in public spaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Technical</span> Skills</h1>
+                <p>Proficient in a variety of tools and languages to develop innovative solutions</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <h2><strong>C, Python, JavaScript</strong></h2>
+                    </div>
+                    <div class="card">
+                        <h2><strong>HTML, CSS, JavaScript</strong></h2>
+                    </div>
+                    <div class="card">
+                        <h2><strong>Arduino, NodeMCU</strong></h2>
+                    </div>
+                    <div class="card">
+                        <h2><strong>AWS (S3, EC2)</strong></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="resume" class="resume">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Resume</h1>
+                <p>Feel free to download my resume and get to know more about my journey and expertise.</p>
+                <div class="btn-wrapper">
+                    <a href="Jay_Pawar_VIT_CV_New.pdf" class="btn btn-primary" download>Download My Resume (PDF)</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+           <!-- Add Font Awesome CDN link in your <head> section if not already included -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="container">
+    <h1 class="section-heading">Contact <span>Me</span></h1>
+    <div class="card-wrapper">
+        <div class="card">
+            <i class="fas fa-phone-alt"></i> <!-- Font Awesome phone icon -->
+            <h1>Call Me On</h1>
+            <h6>+91 8623058911</h6>
+        </div>
+        <div class="card">
+            <i class="fas fa-envelope"></i> <!-- Font Awesome email icon -->
+            <h1>Email Me At</h1>
+            <h6>jaypawar1113@gmail.com</h6>
+        </div>
+        <div class="card">
+            <i class="fas fa-map-marker-alt"></i> <!-- Font Awesome location icon -->
+            <h1>Visit Me</h1>
+            <h6>04, Vinayak, Kothrud, Pune</h6>
+        </div>
+    </div>
+</div>
+
+
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <!-- Add Font Awesome for social media icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
+        
+        <body>
+            <!-- Footer Section -->
+            <footer>
+                <div class="container">
+                    <div class="footer-logo">
+                        <span style="color: white; font-weight: bold; font-size: 18px;">
+                            <span style="display: inline-block; width: 10px; height: 10px; background-color: aqua; border-radius: 50%; margin-right: 10px;"></span>
+                            Jay Pawar
+                        </span>
+                    </div>
+        
+                    <!-- Social Media Icons using Font Awesome -->
+                    <div class="footer-socials">
+                        <a href="#" style="color: white; margin-right: 15px;">
+                            <i class="fas fa-globe"></i> <!-- Website Icon -->
+                        </a>
+                        <a href="#" style="color: white; margin-right: 15px;">
+                            <i class="fab fa-facebook-f"></i> <!-- Facebook Icon -->
+                        </a>
+                        <a href="#" style="color: white; margin-right: 15px;">
+                            <i class="fab fa-twitter"></i> <!-- Twitter Icon -->
+                        </a>
+                        <a href="#" style="color: white;">
+                            <i class="fab fa-instagram"></i> <!-- Instagram Icon -->
+                        </a>
+                    </div>
+        
+                    <!-- Footer Links -->
+                    <div class="footer-links">
+                        <a href="#about" style="color: white; margin-right: 10px;">About</a> |
+                        <a href="#projects" style="color: white; margin-right: 10px;">Projects</a> |
+                        <a href="#skills" style="color: white; margin-right: 10px;">Skills</a> |
+                        <a href="#resume" style="color: white; margin-right: 10px;">Resume</a> |
+                        <a href="#contact" style="color: white;">Contact</a>
+                    </div>
+        
+                    <!-- Copyright Text -->
+                    <div class="footer-copyright">
+                        <p style="color: white;">&copy; 2024 Jay Pawar. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        
+        </body>
+        </html>
+        
+
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
